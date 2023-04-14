@@ -111,7 +111,7 @@ void moistureReading(){
   else{
     irrigation = "off";
     digitalWrite(relayPin,LOW);
-    Serial.print(irrigation);
+    Serial.println(irrigation);
   }
 }
 
